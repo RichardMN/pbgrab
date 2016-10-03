@@ -1,4 +1,15 @@
 #!/usr/bin/perl -w
+# ---------------------------------------------------------------
+#	======== Pbase Album Grabber Command-Line Interface ================
+#		- Arjun Roychowdury
+#
+# License: http://creativecommons.org/licenses/by-nc-sa/3.0/
+#
+# Modified for CLI use by Richard Martin-Nielsen in September 2016.
+# Released as version 1.6 with the same license derivative work.
+#
+# --------------------------------------------------------------------
+
 # Wrapper to PBGrab.pm
 #
 

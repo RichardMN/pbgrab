@@ -1,8 +1,8 @@
 # pbgrab-cli
 
-pbgrab-cli is an adaptation of [Arjun Roychowdhury](http://www.roychowdhury.org)'s [pb2smug](http://www.roychowdhury.org/software) script. That software is a "combined PBase gallery downloader and uploader to Smugmug".
+pbgrab-cli is a command-line script to download images and metadata (titles, captions, dates) from a pbase gallery. It is adapted from [Arjun Roychowdhury](http://www.roychowdhury.org)'s [pb2smug](http://www.roychowdhury.org/software) script. That software is described as a "combined PBase gallery downloader and uploader to Smugmug".
 
-I have taken the core code of his software and written a very simple command-line-interfice (CLI) around it. This means that for linux and MacOS users, you can likely run this from the commandline to download photos and metadata from a [pbase](www.pbase.com) gallery.
+I have taken the core code of his software and written a very simple command-line-interface (CLI) around it. This means that for linux and MacOS users, you can run this from the commandline to download photos and metadata from a [pbase](www.pbase.com) gallery. You will need the username and password to download the gallery - this is not a tool to "scrape" other people's galleries.
 
 ## Usage
 
