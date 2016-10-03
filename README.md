@@ -2,7 +2,7 @@
 
 pbgrab-cli is a command-line script to download images and metadata (titles, captions, dates) from a pbase gallery. It is adapted from [Arjun Roychowdhury](http://www.roychowdhury.org)'s [pb2smug](http://www.roychowdhury.org/software) script. That software is described as a "combined PBase gallery downloader and uploader to Smugmug".
 
-I have taken the core code of his software and written a very simple command-line-interface (CLI) around it. This means that for linux and MacOS users, you can run this from the commandline to download photos and metadata from a [pbase](www.pbase.com) gallery. 
+I have taken the core code of his software and written a very simple command-line-interface (CLI) around it. This means that for linux and MacOS users, you can run this from the commandline to download photos and metadata from a [pbase](http://www.pbase.com) gallery. 
 
 ## Usage
 
@@ -10,7 +10,7 @@ I have taken the core code of his software and written a very simple command-lin
 ./PBGrab-cli.pl -u <username> -gallery <galleryname> -root <rootpath> -d
 ```
 
-Prompts for the `password` associated with `username`. Logs into [pbase](www.pbase.com) and downloads (recursively) the gallery specified by `galleryname`.
+Prompts for the `password` associated with `username`. Logs into [pbase](http://www.pbase.com) and downloads (recursively) the gallery specified by `galleryname`.
 
 Will save the output into a set of directories under `rootpath/galleryname`. (Note: In fact, it currently saves it into `/private/rootpath/galleryname`, and I've not yet determined why.)
 
@@ -38,7 +38,7 @@ It works well enough for me. I have debugged some of the ongoing problems. I hav
 
 ## Why would you want to use this? 
 
-[Arjun Roychowdhury](http://www.roychowdhury.org) has done much of the difficult work of figuring out how to extract gallery data from [pbase](www.pbase.com). Even if you have to adapt or debug this code to make it do what you want it to do, this is already a step up from finding the code within the Windows `zip` file and getting it going on the command-line from scratch.
+[Arjun Roychowdhury](http://www.roychowdhury.org) has done much of the difficult work of figuring out how to extract gallery data from [pbase](http://www.pbase.com). Even if you have to adapt or debug this code to make it do what you want it to do, this is already a step up from finding the code within the Windows `zip` file and getting it going on the command-line from scratch.
 
 This script will predictably get your photos and descriptions down into a simple, usable format. I used it, along with other tools, to rebuid personal photo galleries using [jekyll](http://jekyllrb.com).
 
