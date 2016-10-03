@@ -7,8 +7,7 @@
 #
 #		- Arjun Roychowdury
 #
-#
-# License: http://www.gnu.org/licenses/gpl-3.0.html
+# License: http://creativecommons.org/licenses/by-nc-sa/3.0/
 #
 # Modified for CLI use by Richard Martin-Nielsen in September 2016.
 # Released as version 1.6 with the same license derivative work.
@@ -47,7 +46,7 @@ use Data::Dumper;
 #use Crypt::SSLeay;
 
 $curdir='';
-$user        = 'richardmartin';    # the pbase username
+$user        = '';    # the pbase username
 $interactive = 1;     # if enabled, will ask for password to login
 $show_dbg    = 1;     # if enabled, prints verbose message
 $http_proxy  = '';    # if you browse using a proxy
